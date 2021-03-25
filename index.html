@@ -1,29 +1,35 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <style type="text/css">
-    #top, #bottom {
-      width: 200px;
-      height: 200px;
-      background-color: maroon;
-      border: 1px solid red;
-    }
-    </style>
-  </head>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Media Queries</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
 <body>
 
-<div id="top" class="pull-left">Testing top</div>
-<div id="bottom">Testing bottom</div>
+<h1>Our Menu</h1>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+<div class="row">
+  <section class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+    <div id="box">
+      <header id="subtitle" class="pink"> Chicken </header>
+      <p> lorem ipsum </p>
+    </div>
+  </section>
+  <section class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+    <div id="box">
+      <header id="subtitle" class="red"> Beef </header>
+      <p> lorem ipsum </p>
+    </div>
+  </section>
+  <section class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div id="box">
+      <header id="subtitle" class="yellow"> Sushi </header>
+      <p> lorem ipsum </p>
+    </div>
+  </section>
+</div>
+
 </body>
 </html>
